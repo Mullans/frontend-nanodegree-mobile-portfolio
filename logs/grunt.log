@@ -336,3 +336,245 @@ Minify HTML                                | 0.12
 
 
 Done.
+
+Running "psi-ngrok" task
+
+Running "pagespeed:local" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       0078b69e.ngrok.io
+Strategy:  desktop
+Speed:     88
+
+CSS size                                   | 882 B
+HTML size                                  | 5.51 kB
+Image size                                 | 308.39 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 12
+Static resources                           | 8
+Other size                                 | 42.1 kB
+Total size of request bytes sent           | 1.28 kB
+
+Enable GZIP compression                    | 0.29
+Leverage browser caching                   | 1.49
+Main resource server response time         | 1.54
+Minify HTML                                | 0.11
+Minimize render blocking resources         | 8
+
+--------------------------------------------------------
+
+
+Running "pagespeed:mobile" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       0078b69e.ngrok.io
+Strategy:  mobile
+Speed:     74
+Usability: 100
+
+CSS size                                   | 794 B
+HTML size                                  | 5.51 kB
+Image size                                 | 308.39 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 12
+Static resources                           | 8
+Other size                                 | 29.28 kB
+Total size of request bytes sent           | 1.28 kB
+
+Enable GZIP compression                    | 0.29
+Leverage browser caching                   | 2.24
+Minify HTML                                | 0.11
+Minimize render blocking resources         | 32
+
+--------------------------------------------------------
+
+Warning: Threshold of 80 not met with score of 74 Use --force to continue.
+
+Aborted due to warnings.
+
+Running "psi-ngrok" task
+
+Running "pagespeed:local" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       4c8a3453.ngrok.io
+Strategy:  desktop
+Speed:     97
+
+CSS size                                   | 882 B
+HTML size                                  | 5.8 kB
+Image size                                 | 308.81 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 13
+Static resources                           | 8
+Other size                                 | 42.1 kB
+Total size of request bytes sent           | 1.58 kB
+
+Enable GZIP compression                    | 0.32
+Leverage browser caching                   | 1.49
+Minify HTML                                | 0.12
+
+--------------------------------------------------------
+
+
+Running "pagespeed:mobile" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       4c8a3453.ngrok.io
+Strategy:  mobile
+Speed:     92
+Usability: 100
+
+CSS size                                   | 794 B
+HTML size                                  | 5.8 kB
+Image size                                 | 308.81 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 13
+Static resources                           | 8
+Other size                                 | 29.28 kB
+Total size of request bytes sent           | 1.58 kB
+
+Enable GZIP compression                    | 0.32
+Leverage browser caching                   | 2.24
+Main resource server response time         | 4.2
+Minify HTML                                | 0.12
+
+--------------------------------------------------------
+
+
+Done.
+
+Running "psi-ngrok" task
+
+Running "pagespeed:local" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       daf37c40.ngrok.io
+Strategy:  desktop
+Speed:     95
+
+CSS size                                   | 882 B
+HTML size                                  | 5.85 kB
+Image size                                 | 308.81 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 13
+Static resources                           | 8
+Other size                                 | 42.1 kB
+Total size of request bytes sent           | 1.58 kB
+
+Enable GZIP compression                    | 0.32
+Leverage browser caching                   | 1.49
+Main resource server response time         | 1.85
+Minify HTML                                | 0.12
+
+--------------------------------------------------------
+
+
+Running "pagespeed:mobile" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       daf37c40.ngrok.io
+Strategy:  mobile
+Speed:     96
+Usability: 100
+
+CSS size                                   | 794 B
+HTML size                                  | 5.85 kB
+Image size                                 | 308.81 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 13
+Static resources                           | 8
+Other size                                 | 29.28 kB
+Total size of request bytes sent           | 1.58 kB
+
+Enable GZIP compression                    | 0.32
+Leverage browser caching                   | 2.24
+Minify HTML                                | 0.12
+
+--------------------------------------------------------
+
+
+Done.
+
+Running "psi-ngrok" task
+
+Running "pagespeed:local" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       334bdd01.ngrok.io
+Strategy:  desktop
+Speed:     97
+
+CSS size                                   | 882 B
+HTML size                                  | 5.85 kB
+Image size                                 | 308.81 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 13
+Static resources                           | 8
+Other size                                 | 42.1 kB
+Total size of request bytes sent           | 1.58 kB
+
+Enable GZIP compression                    | 0.32
+Leverage browser caching                   | 1.49
+Minify HTML                                | 0.12
+
+--------------------------------------------------------
+
+
+Running "pagespeed:mobile" (pagespeed) task
+
+--------------------------------------------------------
+
+URL:       334bdd01.ngrok.io
+Strategy:  mobile
+Speed:     96
+Usability: 100
+
+CSS size                                   | 794 B
+HTML size                                  | 5.85 kB
+Image size                                 | 308.81 kB
+JavaScript size                            | 42.02 kB
+CSS resources                              | 1
+Hosts                                      | 8
+JS resources                               | 2
+Resources                                  | 13
+Static resources                           | 8
+Other size                                 | 29.28 kB
+Total size of request bytes sent           | 1.58 kB
+
+Enable GZIP compression                    | 0.32
+Leverage browser caching                   | 2.24
+Minify HTML                                | 0.12
+
+--------------------------------------------------------
+
+
+Done.
