@@ -423,6 +423,7 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
+    //CHANGE: size is now percent based, and doesn't need to query the page
     var newWidth;
     switch(size) {
     case "1":
@@ -438,7 +439,9 @@ var resizePizzas = function(size) {
       console.log("bug in sizeSwitcher");
       newWidth = '100%';
     }
-    var pizzaContainers = document.querySelectorAll('.randomPizzaContainer');
+    //CHANGE: containers are retrieved once outside of the loop, and retrieved with getElementsByClassName instead of by selector
+    var pizzaContainers = document.getElementsByClassName('randomPizzaContainer');
+    //CHANGE: visual changes are done inside of a requestAnimationFrame
     requestAnimationFrame(function(){
       for (var i = 0; i < pizzaContainers.length; i++) {
         pizzaContainers[i].style.width = newWidth;
@@ -490,8 +493,10 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
+  //CHANGE: document.body.scrollTop is retrieved outside of the for-loop
   var x = (document.body.scrollTop / 1250);
   var items = document.getElementsByClassName('mover');
+  //CHANGE: visual changes are done in a requestAnimationFrame
   requestAnimationFrame(function(){
     for (var i = 0; i < items.length; i++) {
       var phase = Math.sin(x + (i % 5));
@@ -516,6 +521,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+  //CHANGE: fewer pizzas created
   for (var i = 0; i < 50; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
@@ -524,6 +530,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
+    //CHANGE: added will-change attribute to put pizzas on layers
     elem.style.willChange = 'left';
     document.querySelector("#movingPizzas1").appendChild(elem);
   }
